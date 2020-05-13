@@ -98,7 +98,7 @@ func getHttpClient(apiKey string) (*ClientWithResponses, error) {
 
 func generateNewTitle(reactions, comments int) string {
 	return fmt.Sprintf(
-		"My personal blog has %[1]d reactions and %[2]d comments",
+		"This article has %[1]d reactions and %[2]d comments",
 		reactions,
 		comments)
 }
